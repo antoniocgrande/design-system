@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DsButtonRounded">
+        <attr name="radius" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="DsButtonRounded2">
+        <attr name="isRounded" format="boolean"/>
+    </declare-styleable>
+
+</resources>
