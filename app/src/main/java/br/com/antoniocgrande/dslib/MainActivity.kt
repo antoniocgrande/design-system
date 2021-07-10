@@ -4,9 +4,6 @@ import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import br.com.antoniocgrande.lib_button.DsButtonAdjustableRounded
-import br.com.antoniocgrande.lib_button.DsButtonRounded
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,33 +14,33 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initListeners() {
-        buttonAdjustableRounded1.setOnClickListener {
-            toast(this, (it as DsButtonAdjustableRounded).text)
-        }
-
-        buttonAdjustableRounded2.setOnClickListener {
-            toast(this, (it as DsButtonAdjustableRounded).text)
-        }
-
-        buttonAdjustableRounded3.setOnClickListener {
-            toast(this, (it as DsButtonAdjustableRounded).text)
-        }
-
-        buttonAdjustableRounded4.setOnClickListener {
-            toast(this, (it as DsButtonAdjustableRounded).text)
-        }
-
-        buttonRounded1.setOnClickListener {
-            toast(this, (it as DsButtonRounded).text)
-        }
-
-        buttonRounded2.setOnClickListener {
-            toast(this, (it as DsButtonRounded).text)
-        }
-
-        buttonRounded3.setOnClickListener {
-            toast(this, (it as DsButtonRounded).text)
-        }
+//        buttonAdjustableRounded1.setOnClickListener {
+//            toast(this, (it as DsButtonAdjustableRounded).text)
+//        }
+//
+//        buttonAdjustableRounded2.setOnClickListener {
+//            toast(this, (it as DsButtonAdjustableRounded).text)
+//        }
+//
+//        buttonAdjustableRounded3.setOnClickListener {
+//            toast(this, (it as DsButtonAdjustableRounded).text)
+//        }
+//
+//        buttonAdjustableRounded4.setOnClickListener {
+//            toast(this, (it as DsButtonAdjustableRounded).text)
+//        }
+//
+//        buttonRounded1.setOnClickListener {
+//            toast(this, (it as DsButtonRounded).text)
+//        }
+//
+//        buttonRounded2.setOnClickListener {
+//            toast(this, (it as DsButtonRounded).text)
+//        }
+//
+//        buttonRounded3.setOnClickListener {
+//            toast(this, (it as DsButtonRounded).text)
+//        }
     }
 
     private fun toast(context: Context, text: CharSequence) {
