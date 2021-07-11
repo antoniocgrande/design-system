@@ -9,10 +9,9 @@
         <item name="android:textColor">?colorAccent</item>
         <item name="textAllCaps">false</item>
         <item name="android:textStyle">italic|normal</item>
-        <item name="android:layout_margin">8dp</item>
 
         <!-- Custom widgets by style -->
-        <item name="buttonStyle">@style/PrincipalButton</item>
+        <item name="buttonStyle">@style/CustomButton</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -25,7 +24,6 @@
         <item name="colorPrimaryDark">#0000aa</item>
         <item name="colorAccent">#6666ff</item>
         <item name="android:background">#000066</item>
-        <item name="android:textColor">?colorAccent</item>
     </style>
 
     <style name="AppTheme.RED" parent="AppTheme.NoActionBar">
@@ -33,7 +31,6 @@
         <item name="colorPrimaryDark">#aa0000</item>
         <item name="colorAccent">#ff6666</item>
         <item name="android:background">#660000</item>
-        <item name="android:textColor">?colorAccent</item>
     </style>
 
     <style name="AppTheme.PINK" parent="AppTheme.NoActionBar">
@@ -41,7 +38,6 @@
         <item name="colorPrimaryDark">#aa22aa</item>
         <item name="colorAccent">#ff66ff</item>
         <item name="android:background">#440044</item>
-        <item name="android:textColor">?colorAccent</item>
     </style>
 
 </resources>
