@@ -33,21 +33,28 @@ e adicione a dependência `implementation(name: 'lib-theme', ext: 'aar')` no arq
 Sincronize o seu projeto e faça conforme a seguir:<br>
 
 - Via AndroidManifest.xml:
-    - Em toda a aplicação:
+  - Em toda a aplicação:
   ```Xml
   <application android:theme="@style/AppTheme">
   ...  
   </application>
   ```
-    - Em Activity específica:
+  - Em Activity específica:
   ```Xml
   <activity android:name=".JustActivity" android:theme="@style/AppTheme"/>
   ```  
 
+Utilize os seguites temas:
+
+    - Tema padrão: `android:theme="@style/AppTheme"`
+    - Tema Azul: `android:theme="@style/AppTheme.BLUE"`
+    - Tema Pink: `android:theme="@style/AppTheme.PINK"`
+    - Tema Vermelho: `android:theme="@style/AppTheme.RED"`
+
 - Programaticamente:
   A definição deve estar no método `onCreate` antes do `super.onCreate(savedInstanceState)` e `setContentView(R.layout.activity_main)`.
-    - Para toda a aplicação, defina em uma classe que extenda a classe Application.
-    - Para activity específica, defina na activity que deseja.
+  - Para toda a aplicação, defina em uma classe que extenda a classe Application.
+  - Para activity específica, defina na activity que deseja.
   ```Kotlin
   override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -61,10 +68,10 @@ Sincronize o seu projeto e faça conforme a seguir:<br>
 
 Utilize os seguites temas:
 
-- Tema padrão: `ThemesHelper.APPTHEME`
-- Tema Azul: `ThemesHelper.APPTHEME_BLUE`
-- Tema Pink: `ThemesHelper.APPTHEME_PINK`
-- Tema Vermelho: `ThemesHelper.APPTHEME_RED`
+    - Tema padrão: `ThemesHelper.APPTHEME`
+    - Tema Azul: `ThemesHelper.APPTHEME_BLUE`
+    - Tema Pink: `ThemesHelper.APPTHEME_PINK`
+    - Tema Vermelho: `ThemesHelper.APPTHEME_RED`
 
 ex.:
 
